@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="enterName">
+		<input type="text" id="playerName-El" placeholder="Enter your name"/>
+		<button onclick="enterName()">Enter</button>
+	</div>
+	<div id="mainGame">
+	<h1>Black Jack</h1>
+	<div>
+		<p id="massageEl">massageEl</p>
+		<p id="cardsEl">Cards : </p>
+		<p id="sumEl">Sum : </p>
+		<button id="takeEl" onclick="add()">take a card</button>
+	</div>
+	<div>
+		<p class="gamesinfo" id="games">Games : 0</p>
+		<p class="gamesinfo" id="wins">Wins : 0</p>
+		<p class="gamesinfo" id="losses">Losses : 0</p>
+		<p id="per-El"></p>
+	</div>
+	</div>
+	
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
